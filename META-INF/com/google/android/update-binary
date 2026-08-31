@@ -1,0 +1,14 @@
+#!/sbin/sh
+#################
+# Module Installer Stub
+#################
+umask 022
+
+if [ -f /data/adb/ksu/bin/busybox ]; then
+    export ASH_STANDALONE=1
+fi
+
+OUTFD=$2
+ZIPFILE=$3
+
+exit 0
