@@ -3,4 +3,4 @@ name=安全启动状态修复
 version=1.0.0
 versionCode=100
 author=XIAN
-description=[已锁定] taffy直接把属性锁死啦，证书链报错通通退散喵。交流群: 605389940
+description=[已锁定] 自动锁定 ro.secureboot.lockstate。仓库: https://github.com/Rikka06/lockstate-fix | 交流群: 605389940
