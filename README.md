@@ -1,6 +1,6 @@
 # 🔒 安全启动状态修复模块 (SecureBoot Lockstate Fix)
 
-[![GitHub Release](https://img.shields.io/github/v/release/titanwings/secureboot_lockstate_fix?style=flat-square&color=blue)](https://github.com/titanwings/secureboot_lockstate_fix/releases)
+[![GitHub Release](https://img.shields.io/github/v/release/Rikka06/secureboot_lockstate_fix?style=flat-square&color=blue)](https://github.com/Rikka06/secureboot_lockstate_fix/releases)
 [![License](https://img.shields.io/badge/License-GPL%20v3-green.svg?style=flat-square)](LICENSE)
 [![KernelSU](https://img.shields.io/badge/KernelSU-Supported-brightgreen?style=flat-square)](https://kernelsu.org)
 [![SukiSU](https://img.shields.io/badge/SukiSU-Supported-blueviolet?style=flat-square)](https://github.com/tiann/KernelSU)
@@ -12,8 +12,8 @@
 
 ## 📥 模块直接下载
 
-* **最新发布版 (GitHub Releases)**：[点击前往下载最新 ZIP 包](https://github.com/titanwings/secureboot_lockstate_fix/releases/latest)
-* **仓库内置直链**：[下载 SecureBoot_Lockstate_Fix.zip](https://github.com/titanwings/secureboot_lockstate_fix/raw/main/安全启动状态修复_v1.0.0.zip)
+* 📦 **最新发布版 (GitHub Releases)**：[点击前往下载 Release ZIP 包](https://github.com/Rikka06/secureboot_lockstate_fix/releases/latest)
+* 🚀 **仓库文件直链下载**：[安全启动状态修复_v1.0.0.zip](https://github.com/Rikka06/secureboot_lockstate_fix/raw/main/安全启动状态修复_v1.0.0.zip)
 
 ---
 
@@ -56,7 +56,7 @@
 
 ## 🛠️ 安装与使用指南
 
-1. 从上方链接下载最新版本的模块 ZIP 包（例如 `安全启动状态修复_v1.0.0.zip`）；
+1. 从上方链接下载最新版本的模块 ZIP 包；
 2. 打开手机上的 **SukiSU / KernelSU / Magisk Manager**；
 3. 进入「模块」界面，点击「从本地安装」选择该 ZIP 文件；
 4. 刷入完成后，属性已立即生效；之后正常使用与重启手机均可保持锁定状态。
