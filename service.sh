@@ -11,4 +11,4 @@ else
     STATE_TAG="[未锁定: $LOCKSTATE]"
 fi
 
-sed -i "s|^description=.*|description=${STATE_TAG} 自动锁定安全启动状态。仓库: https://github.com/Rikka06/lockstate-fix \| 交流群: 605389940|g" "$MODDIR/module.prop"
+sed -i "s|^description=.*|description=${STATE_TAG} 自动锁定 ro.secureboot.lockstate 为 locked。仓库: https://github.com/Rikka06/lockstate-fix \| 交流群: 605389940|g" "$MODDIR/module.prop"
