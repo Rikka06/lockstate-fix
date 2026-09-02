@@ -1,12 +1,13 @@
 #!/sbin/sh
 
 ui_print "****************************************"
-ui_print "*        Lockstate Fix (安全启动状态修复)       *"
+ui_print "*        Lockstate Fix 安全启动状态修复       *"
 ui_print "*        https://github.com/Rikka06/lockstate-fix *"
 ui_print "****************************************"
 ui_print " "
 ui_print "- 运行环境检测:"
-ui_print "  • 设备架构: $ARCH (Android API $API)"
+ui_print "  • 设备架构: $ARCH"
+ui_print "  • 系统版本: API $API"
 if [ "$KSU" = "true" ]; then
     ui_print "  • Root 框架: KernelSU / SukiSU"
 elif [ "$APATCH" = "true" ]; then
@@ -16,7 +17,7 @@ else
 fi
 ui_print " "
 
-ui_print "- [1/3] 检查并锁定安全启动属性 (ro.secureboot.lockstate)..."
+ui_print "- [1/3] 检查并锁定安全启动属性..."
 CURRENT_STATE=$(resetprop ro.secureboot.lockstate)
 ui_print "  • 当前属性值: [ $CURRENT_STATE ]"
 
